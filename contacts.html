@@ -6,6 +6,7 @@
  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
  <title>Контакты - Название вашего сайта</title>
  <meta name="description" content="Узнайте больше о нашей компании и истории">
+ <link rel="stylesheet" href="static/styles.css">
 </head>
 <body>
  <header>
@@ -31,9 +32,29 @@
  <p>Текст о том, какие есть контакты...</p>
  </section>
  <section>
- <h2>Наши контакты</h2>
- <p>Текст о контактах...</p>
+ <h2>Наши соц.сети</h2>
+ <p>Текст о соц.сетях ...</p>
  </section>
+ <form id = "Contactform">
+    <label for="name">Ваше имя:</label>
+    <input type = "text" id = "name" name = "name" required>
+    <label for="phone">Ваш телефон:</label>
+    <input type = "text" id = "phone" name = "phone" placeholder = "+7-999-999-99-99" required>
+    <label for="email">Ваш телефон:</label>
+    <input type = "text" id = "email" name = "email" required>
+    <label for="cours">Ваш курс:</label>
+    <select id = "cours" name = "cours" required>
+        <option value="1">1 курс</option>
+        <option value="2">2 курс</option>
+        <option value="3">3 курс</option>
+        <option value="4">4 курс</option>
+        <option value="other">Другой курс</option>
+    </select>
+    <label for="message">Ваше сообщение:</label>
+    <textarea id="message" name="message" rows="4"></textarea>
+    <button type = "submit" id = "submit-btn">Отправить</button>
+    <button type = "reset" id = "reset-btn">Очистить</button>
+ </form>
  </main>
  <footer>
  <p>&copy; 2023 Название вашего сайта. Все права защищены.</p>
