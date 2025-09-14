@@ -27,7 +27,7 @@ label {
 }
 
 input {
-    border: 3px solid purple;
+    border: 3px solid blueviolet;
     border-radius: 10px;
     padding: 4px;
     background-color: #fff;
@@ -55,4 +55,20 @@ button:hover {
     border-radius: 10px;
     max-width: 400px;
     background-color: lightblue;
+}
+
+.error {
+    border: 3px solid red;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    background-color: lightcoral;
+}
+
+.media {
+    padding: 4px;
+    border: 2px solid blue;
+    background-color: cornflowerblue;
+    max-width: 730px;
+    max-height: 420px;
 }
