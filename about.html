@@ -6,31 +6,34 @@
  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
  <title>О нас - Название вашего сайта</title>
  <meta name="description" content="Узнайте больше о нашей компании и истории">
+ <link rel="stylesheet" href="static/styles.css">
 </head>
 <body>
  <header>
- <a href="/">Логотип или название сайта</a>
+ <a href="/" class="logo">
+  <img src="assets/favicon.ico" alt="Название" width="50" height="50">
+</a>
  <!-- Главное меню навигации -->
  <nav>
- <ul>
- <li><a href="index.html">Главная</a></li>
- <li><a href="about.html">О нас</a></li>
- <li><a href="contacts.html">Контакты</a></li>
+ <ul class="header__navigation">
+ <li><a class="header__navigation-item" href="index.html">Главная</a></li>
+ <li><a class="header__navigation-item" href="about.html">О нас</a></li>
+ <li><a class="header__navigation-item" href="contacts.html">Контакты</a></li>
  </ul>
  </nav>
  </header>
  <main>
  <!-- Простые "хлебные крошки" -->
- <nav aria-label="Хлебные крошки">
+ <nav class="bread-navigation" aria-label="Хлебные крошки">
  <a href="index.html">Главная</a> →
  <span>О нас</span>
  </nav>
  <h1>О нашей компании</h1>
- <section>
+ <section id="history">
  <h2>Наша история</h2>
  <p>Текст о том, как все начиналось...</p>
  </section>
- <section>
+ <section id="team">
  <h2>Наша команда</h2>
  <p>Текст о команде...</p>
  </section>
