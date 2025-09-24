@@ -159,3 +159,8 @@ header {
     margin-left: 30vw;
 
 }
+
+.products {
+    display: flex;
+    justify-content: space-evenly;
+}
